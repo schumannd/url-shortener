@@ -1,0 +1,14 @@
+{% extends 'base.html' %}
+
+{% block header %}
+  <h1>Tinify URL Service</h1>
+{% endblock %}
+
+{% block content %}
+<div>
+  <p>Tinify your URL here.</p>
+  <input type='text' id='url'>
+  <input type='submit' value='Shorten URL' id='submitButton'><br /><br />
+  <div id='output'></div>
+</div>
+{% endblock %}
