@@ -1,10 +1,11 @@
 # Tinify URL Service
 
-A URL tinification service powered by [flask](https://github.com/pallets/flask) and [redis](https://github.com/redis/redis)
+A URL tinification service powered by [flask](https://github.com/pallets/flask), [postgresql](https://www.postgresql.org/) and [docker](https://github.com/docker)
 
 ### To run the service
 
 docker-compose up
+
 navigate to: http://localhost:9999/
 
 
